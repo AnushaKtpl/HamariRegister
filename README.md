@@ -1,5 +1,4 @@
 # HamariRegister
-About Registration 
 
 <?php
 /**
@@ -465,74 +464,7 @@ function callServer(action, value, value2, last, first) {
                 </div>
             </div>
         </form>
-<!-- Profile Form
-        <form class="form-inline" id="profileForm" role="form" action="account.php" method="post">
-            <div class="row setup-content" id="step-2" style="display: none">
-                <div class="col-md-9 col-md-offset-2 text-center">
-                    <fieldset>
-                        <legend class='bg-primary'><?php echo xlt('Profile') ?></legend>
-                        <div class="well">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="../patient/patientdata?pid=0&register=true" id="profileFrame" name="demo"></iframe>
-                            </div>
-                        </div>
-                        <button class="btn btn-primary prevBtn btn-sm pull-left" type="button"><?php echo xlt('Previous') ?></button>
-                        <button class="btn btn-primary btn-sm pull-right" type="button" id="profileNext"><?php echo xlt('Next') ?></button>
-                    </fieldset>
-                </div>
-            </div>
-        </form>
-<!-- Insurance Form
-        <form class="form-inline" id="insuranceForm" role="form" action="" method="post">
-            <div class="row setup-content" id="step-3" style="display: none">
-                <div class="col-xs-6 col-md-offset-3 text-center">
-                    <fieldset>
-                        <legend class='bg-primary'><?php echo xlt('Insurance') ?></legend>
-                        <div class="well">
-                            <div class="form-group inline">
-                                <label class="control-label" for="provider"><?php echo xlt('Insurance Company')?></label>
-                                <div class="controls inline-inputs">
-                                    <input type="text" class="form-control" name="provider" required placeholder="<?php echo xla('Insurance Company'); ?>">
-                                </div>
-                            </div>
-                            <div class="form-group inline">
-                                <label class="control-label" for=""><?php echo xlt('Plan Name')?></label>
-                                <div class="controls inline-inputs">
-                                    <input type="text" class="form-control" name="plan_name" required placeholder="<?php echo xla('Required'); ?>">
-                                </div>
-                            </div>
-                            <div class="form-group inline">
-                                <label class="control-label" for=""><?php echo xlt('Policy Number')?></label>
-                                <div class="controls inline-inputs">
-                                    <input type="text" class="form-control" name="policy_number" required placeholder="<?php echo xla('Required'); ?>">
-                                </div>
-                            </div>
-                            <div class="form-group inline">
-                                <label class="control-label" for=""><?php echo xlt('Group Number')?></label>
-                                <div class="controls inline-inputs">
-                                    <input type="text" class="form-control" name="group_number" required placeholder="<?php echo xla('Required'); ?>">
-                                </div>
-                            </div>
-                            <div class="form-group inline">
-                                <label class="control-label" for=""><?php echo xlt('Policy Begin Date')?></label>
-                                <div class="controls inline-inputs">
-                                    <input type="text" class="form-control datepicker" name="date" placeholder="<?php echo xla('Policy effective date'); ?>">
-                                </div>
-                            </div>
-                            <div class="form-group inline">
-                                <label class="control-label" for=""><?php echo xlt('Co-Payment')?></label>
-                                <div class="controls inline-inputs">
-                                    <input type="number" class="form-control" name="copay" placeholder="<?php echo xla('Plan copay if known'); ?>">
-                                </div>
-                            </div>
-                        </div>
-                        <button class="btn btn-primary prevBtn btn-sm pull-left" type="button"><?php echo xlt('Previous') ?></button>
-                        <button class="btn btn-primary nextBtn btn-sm pull-right" type="button"><?php echo xlt('Next') ?></button>
-                    </fieldset>
-                </div>
-            </div>
-        </form>
-        <!End Insurance. Next what we've been striving towards..the end-->
+
         <div class="row setup-content" id="step-4" style="display: none">
             <div class="col-xs-6 col-md-offset-3 text-center">
                 <div class="col-md-12">
