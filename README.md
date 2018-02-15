@@ -1,5 +1,4 @@
 # HamariRegister
-About Registration (skip Profile & Insurance)
 
 <?php
 /**
@@ -465,6 +464,7 @@ function callServer(action, value, value2, last, first) {
                 </div>
             </div>
         </form>
+
         <div class="row setup-content" id="step-4" style="display: none">
             <div class="col-xs-6 col-md-offset-3 text-center">
                 <div class="col-md-12">
